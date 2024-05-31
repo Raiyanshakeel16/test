@@ -21,7 +21,7 @@
         let myGuess = document.getElementById("guess").value;
         let feedback = document.getElementById("feedback");
 
-        if (myGuess === randomNumber){
+        if (myGuess == randomNumber){
           feedback.textContent = "You got it right!"
         }
         else if(myGuess > randomNumber) {
